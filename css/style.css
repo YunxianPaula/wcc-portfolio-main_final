@@ -206,3 +206,27 @@ img{
         flex-basis: 100%; /*width of the box, take up a quarter of the parent's size*/
     }
 }
+.flex-item a#watching{
+    background-image: url(../assets/images/1111.png); 
+}
+.flex-item a#tattoo{
+    background-image: url(../assets/images/tattoo.png); 
+}
+.flex-item a#poem{
+    background-image: url(../assets/images/poem.png); 
+}
+.flex-item a#C333{
+    background-image: url(../assets/images/333.png); 
+}
+.flex-item a#pic{
+    background-image: url(../assets/images/pic.png); 
+}
+.flex-item a#watching{
+    background-image: url(../assets/images/1111.png); 
+}
+.flex-item a#test9{
+    background-image: url(../assets/images/test9.png); 
+}
+.flex-item a#test7{
+    background-image: url(../assets/images/test7.png); 
+}
