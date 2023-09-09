@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WCC Portfolio - Demo Page</title>
+
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+
+    </head>
+    <body>
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">HOME</a>
+        </nav>
+        <header class="documentation-header">
+            <section class="center-text">
+                <h1>Self-packaging</h1>
+                <h2>Yunxian Wang</h6>
+                <p>Real-time interaction through skeleton detection to realise the real-life situation where people have become habitually self-packaged, encouraging dissection of the self and finding the essence and core of who they are.</p> 
+            </section>
+        </header>
+
+        <main class="documentation-page">
+            <section>
+                <div class="responsive-video centered-content">
+                    <!-- <iframe title="vimeo-player" src="https://player.vimeo.com/video/644036051?h=b260a3b1b0" width="100%" height="100%" frameborder="0" allowfullscreen></iframe> -->
+                    <iframe src="https://player.vimeo.com/video/822872103?h=93763eae55" width="640" height="324" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<!-- <p><a href="https://vimeo.com/822872103">CC2_final</a> from <a href="https://vimeo.com/user107794794">yunxian wang</a> on <a href="https://vimeo.com">Vimeo</a>.</p> -->
+                </div>
+            </section>
+            <section>
+                <h3>Introduction</h3>
+                <p>The self in traditional Chinese culture is outward, built in collective and society.
+                    In Western culture, self is inward. Emphasis on self -esteem, self -worth, and self -life experience. Individual autonomy, freedom, and expression.Different cultures create diverse people and people have diverse selves to deal with different situations.
+                    By detecting human actions in real time, a dynamic interactive map can be generated that expresses the self, the packaged self and the awareness of the self.</p>
+            </section>
+            <section>
+                <h3>Concept and Background Research</h3>
+                
+                <p>In Chinese culture ，the concept of self is often understood in a more collectivistic context compared to individualistic Western cultures. This means that one's sense of self is often shaped by their social relationships and the expectations and norms of their community.
+                    One important concept in Chinese culture related to the self is "ren(人)" , which can be translated as "benevolence" or "humaneness." This concept emphasizes the importance of being kind and compassionate towards others and cultivating strong social relationships. By prioritizing the well-being of others, individuals can also improve their own sense of self and cultivate a positive reputation within their community.
+                    
+                    Another important concept related to the self in Chinese culture is "guanxi," which refers to the network of social relationships and connections that individuals cultivate over time. These relationships can be used to build trust, gain access to resources, and achieve personal and professional goals. The strength of one's guanxi network is often seen as an important aspect of one's identity and status within their community.
+                    
+                    Overall, the concept of self in Chinese culture emphasizes the importance of social relationships and collective identity, rather than individualism and self-expression.
+                    
+                    In Western culture ,In Western culture, the concept of self is often understood in a more individualistic context compared to collectivistic cultures like China. This means that one's sense of self is often shaped by their own unique qualities and characteristics, rather than their social relationships or community norms.
+                    
+                    One important concept related to the self in Western culture is "individualism," which emphasizes the importance of individual autonomy, freedom, and self-expression. This concept suggests that individuals should be free to pursue their own goals and desires, and that personal achievement and success are important sources of fulfillment and happiness.
+                    
+                    Another important concept related to the self in Western culture is "self-esteem," which refers to an individual's subjective evaluation of their own worth and value. High self-esteem is often associated with positive emotions, self-confidence, and a sense of competence and mastery.
+                    
+                    The concept of "self-actualization," popularized by psychologist Abraham Maslow, is also an important aspect of the Western understanding of the self. This concept suggests that individuals have an innate drive to reach their full potential and achieve a state of self-fulfillment, and that personal growth and self-improvement are important sources of meaning and purpose in life.
+                    
+                    Overall, the concept of self in Western culture emphasizes the importance of individualism, self-expression, and personal achievement, and is often characterized by a focus on autonomy, self-esteem, and self-actualization.</p>
+                <p>This concept is a project that I explored with my friend who studied menswear at the RCA. On my side, it is a digital representation of the multiple selves that people habitually display in their lives depending on different circumstances or situations, in life, in love with a project, in front of friends and teachers, on social media, etc. We are used to setting up so-called "personas The so-called "persona" that we are used to setting up is in fact the multiple selves that are differentiated when trying to adapt to different situations. </p>
+                
+                <!-- if you have a full width image try make it not too tall -->
+                <img src="../assets/images/concept5.png"/>
+                
+            </section>
+            <section>
+                <h3>Technical Implementation</h3>
+
+                <!-- example of styling for three images, you can write your own styling -->
+                <div class="flex-container flex-basis-third">
+                    <div class="flex-item">
+                        <img src="../assets/images/concept1.png"/>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../assets/images/concept2.png"/>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../assets/images/concept3.png"/>
+                    </div>
+                </div>
+                
+                <p>In the test model, I used the bufferfloat and lifespan from the body glow code that I learned last term to express the multiple selves, the self-wrapping effect, and added the physical part, using servos and fabric to create a multi-layered feel. </p>
+                <p>In the final model, I still wanted to use body glow's bufferfloat and lifespan, but to interact in the dim space station,  need to connect Kinect to detect limb movement, but after testing for a long time, it was difficult to combine the depthpixels of Kinect, and I tried touchdesigner and processing, both due to the hardware I had no choice but to use particle ,mlposenet,and webcam together, borrowing particle code and trying to express a self through a particle form.</p>
+                <!-- example of styling for three images, you can write your own styling -->
+                <div class="flex-container flex-basis-half">
+                    <div class="flex-item">
+                        <img src="../assets/images/test222.png"/>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../assets/images/test7.png"/>
+                    </div>
+                </div>
+
+                <!-- default flex item is for 4 & follows media query styling for home page -->
+                <div class="flex-container">
+                    <div class="flex-item">
+                        <img src="../assets/images/test8.png"/>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../assets/images/test9.png"/>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../assets/images/test1.png"/>
+                    </div>
+                    <div class="flex-item">
+                        <img src="../assets/images/test2.png"/>
+                    </div>
+                </div>
+         
+            </section>
+            <section>
+                <h3>Reflection and Future Development</h3>
+                <p>While I was trying to combine Kinect and particle, I learned more about how particles work and the logic of connecting them to Kinect, although due to personal technical, hardware and time constraints, I was not able to realise the final effect with Kinect and had to use webcam to connect to the particles.
+                    In the future I will continue to investigate how to combine particles with Kinect and use different effects to express different selves, for example using plush materials to express the self in a state of modesty, raindrops to express the self in an unfavourable situation and so on.</p>
+            </section>
+            <section>
+                <h3>References</h3>
+                <ul>
+                    <li>[1].The coding train,Live Stream #15: Using the Kinect and Processing,2015 Nov 25,https://www.youtube.com/watch?v=6wviMtISsyc&t=5449s</li>
+                    <li>[2]. Tutku Çalış ,Posenet Particules,https://openprocessing.org/sketch/1906549/</li>
+                    <li>[3].Jungmin Park ,Hand,https://openprocessing.org/sketch/803279</li>
+                    <li>[4].Alicia M. del Prado、A. Timothy Church、Marcia S. Katigbak、 Lilia G. Miramontes,Culture, Method, and the Content of Self-Concepts: Testing Trait, Individual-Self-Primacy, and Cultural Psychology Perspectives,  2007 Dec; 41(6): 1119–1160.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
+    </body>
+</html>
