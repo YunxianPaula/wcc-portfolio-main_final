@@ -232,3 +232,7 @@ img{
 .flex-item a#test7{
     background-image: url(../assets/images/test7.png); 
 }
+
+.flex-item a#final{
+    background-image: url(../assets/images/final1.jpg); 
+}
